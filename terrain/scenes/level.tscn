@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dmjg2s46t4u25"]
+
+[ext_resource type="PackedScene" uid="uid://bc2dqvp8c80cn" path="res://terrain/scenes/terrain.tscn" id="1_suajg"]
+[ext_resource type="PackedScene" uid="uid://ca7lth3nqmqcn" path="res://character/scenes/character.tscn" id="2_fbafv"]
+
+[node name="Level" type="Node2D" unique_id=560512338]
+
+[node name="Terrain" parent="." unique_id=1825591033 instance=ExtResource("1_suajg")]
+
+[node name="Character" parent="Terrain" unique_id=744583444 instance=ExtResource("2_fbafv")]
+position = Vector2(34, 34)
